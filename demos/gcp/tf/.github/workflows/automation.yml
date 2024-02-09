@@ -1,0 +1,9 @@
+name: databricks-gh-action
+on: [pull_request]
+jobs:
+  setup_databricks_cli:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          curl -fsSL https://raw.githubusercontent.com/databricks/setup-cli/main/install.sh | sh
