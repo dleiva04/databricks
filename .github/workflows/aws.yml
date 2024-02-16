@@ -1,0 +1,11 @@
+name: databricks-gh-action
+on: []
+
+jobs:
+  aws-setup:
+    runs-on: ubuntu-latest
+    
+  databricks-deployment:
+    runs-on: ubuntu-latest
+  
+      
