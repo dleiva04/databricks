@@ -1,0 +1,11 @@
+name: Azure Workflow
+on: [workflow_dispatch]
+
+jobs:
+  azure-setup:
+    runs-on: ubuntu-latest
+    
+  databricks-deployment:
+    runs-on: ubuntu-latest
+  
+      
