@@ -1,0 +1,9 @@
+name: AWS Workflow
+on: [workflow_dispatch]
+
+jobs:
+  aws-setup:
+    runs-on: ubuntu-latest
+
+  databricks-deployment:
+    runs-on: ubuntu-latest
